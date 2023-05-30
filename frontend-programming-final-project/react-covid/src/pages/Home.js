@@ -8,7 +8,7 @@ import Provinces from "../components/Provinces/Provinces";
 import data from "../utils/constants/provinces";
 
 const Main = () => {
-    const [tableData, setTableData] = useState(data);
+    const [tableData, setTableData] = useState(data.provinces);
     return(
         <main>
             <Hero/>
